@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testing</class>
+ <widget class="QMainWindow" name="testing">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1233</width>
+    <height>840</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="testing_tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1211</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="login_tab">
+     <attribute name="title">
+      <string>login</string>
+     </attribute>
+     <widget class="QLabel" name="login_label">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>150</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>login</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>180</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>password</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="login_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>150</y>
+        <width>171</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="password_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>180</y>
+        <width>171</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sig_in_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>220</y>
+        <width>89</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>sig in</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="testing_tab">
+     <attribute name="title">
+      <string>testing</string>
+     </attribute>
+     <widget class="QLabel" name="question_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>1151</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Question</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="answer1_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>230</y>
+        <width>501</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>answer1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="answer2_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>260</y>
+        <width>501</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>answer2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="answer3_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>290</y>
+        <width>900</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>answer3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="answer4_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>320</y>
+        <width>501</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>answer4</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="answer1_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>230</y>
+        <width>92</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="answer2_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>260</y>
+        <width>92</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="answer3_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>290</y>
+        <width>92</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="answer4_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>320</y>
+        <width>92</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="answer_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>360</y>
+        <width>88</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>answer</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="admin_tab">
+     <attribute name="title">
+      <string>administration</string>
+     </attribute>
+     <widget class="QTabWidget" name="administration_tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>-4</x>
+        <y>-1</y>
+        <width>1211</width>
+        <height>731</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="create_user_tab">
+       <attribute name="title">
+        <string>create a user</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="create_test_tab">
+       <attribute name="title">
+        <string>create a test</string>
+       </attribute>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="sign_out_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>760</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sign out</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="user_label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>760</y>
+      <width>67</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>user</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1233</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
