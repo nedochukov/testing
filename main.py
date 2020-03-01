@@ -10,6 +10,8 @@ class MyWindow(QtWidgets.QMainWindow):
         self.ui = Ui_testing()
         self.ui.setupUi(self)
 
+
+#create main window
 app = QtWidgets.QApplication([])
 application = MyWindow()
 application.show()
