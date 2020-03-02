@@ -9,7 +9,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_testing(object):
-    def setupUi(self, testing):
+    def setupUi(self, testing: object) -> object:
         testing.setObjectName("testing")
         testing.resize(1494, 760)
         self.centralwidget = QtWidgets.QWidget(testing)
